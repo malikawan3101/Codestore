@@ -110,6 +110,17 @@ The notebook produces a detailed data‑quality report including:
 
 - **Final_validated_companies.csv** — Final cleaned and matched dataset  
 
+## How to Run
+
+1. Clone the repository  
+2. Place your CSV in the project folder and update the file path in the notebook  
+3. Impotant: Set your Companies House API key in the notebook  
+4. Open the notebook in Jupyter and run all cells sequentially  
+5. Review summary tables and visualizations directly in the notebook  
+6. Check the working directory for exported CSV files  
+
+
+
 ---
 
 ## Future Improvements
