@@ -2,8 +2,8 @@
 
 A Jupyter Notebook that:
 - Ingests a CSV of company data  
-- Cleans, deduplicates, and profiles the dataset 
-- Generated Data Quality report, before and after processing 
+- Cleans, deduplicates, profiles and validates the dataset 
+- Generates Data Quality report, before and after processing 
 - Matches records against Companies House API  
 - Enriches missing data and validates formats  
 - Produces visual summaries and exports a clean dataset
@@ -31,7 +31,7 @@ This notebook validates and enhances a company dataset by:
 - Removing duplicates by `CompanyNumber`, keeping the most recent  
 - Cross-referencing with Companies House to verify and enrich records  
 - Address validation, name similarity scoring, ID padding, date formatting, custom data quality and profiling rules, data quality framework,
-- Generating a final clean dataset and summarizing data quality
+- Generating a final clean dataset and summarizing data quality before and after
 
 ---
 
