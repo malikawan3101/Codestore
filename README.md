@@ -19,7 +19,6 @@ A Jupyter Notebook that:
 5. [How to Run](#how-to-run)  
 6. [Outputs](#outputs)  
 7. [Future Improvements](#future-improvements)  
-8. [Credits & References](#credits--references)
 
 ---
 
@@ -79,6 +78,8 @@ pip install pandas numpy seaborn matplotlib requests fuzzywuzzy os re request ti
 9. **Export**  
    - Save the final cleansed dataset as `Final_validated_companies.csv`  
    - Export intermediate CSV files for audit and review
+
+---
 ## Data Quality Reporting
 
 The notebook produces a detailed data‑quality report including:
@@ -110,6 +111,8 @@ The notebook produces a detailed data‑quality report including:
 
 - **Final_validated_companies.csv** — Final cleaned and matched dataset  
 
+---
+
 ## How to Run
 
 1. Clone the repository  
@@ -119,8 +122,6 @@ The notebook produces a detailed data‑quality report including:
 5. Review summary tables and visualizations directly in the notebook  
 6. Check the working directory for exported CSV files  
 
-
-
 ---
 
 ## Future Improvements
@@ -128,5 +129,6 @@ The notebook produces a detailed data‑quality report including:
 - Add fuzzy matching for address and incorporation date validation  
 - Integrate Great Expectations for automated data validations  
 - Automate the pipeline via cron jobs or an orchestration tool like Airflow  
-- Develop an interactive dashboard using Plotly Dash or Voila  
+- Develop an interactive dashboard using Plotly Dash or Voila
+- Further clean and massage data
 
