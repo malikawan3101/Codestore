@@ -1,4 +1,4 @@
-# Company Data Validation & Cleansing
+# Advanced Company Profiling and Data Validation
 
 A Jupyter Notebook that:
 - Ingests a CSV of company data  
